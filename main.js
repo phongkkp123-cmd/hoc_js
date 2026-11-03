@@ -1,6 +1,17 @@
 
+var myArray = [
+  'js',
+  'css',
+  'html',
+  'python',
+  'java',
 
-for (var i = 1; i<=10; i++) {
-  console.log(i);
+];
 
+var arrayLength = myArray.length;
+for (var i = 0; i < arrayLength; i++) {
+  console.log(myArray[i]);
 }
+
+
+  
