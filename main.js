@@ -1,17 +1,11 @@
 
-var myArray = [
-  'js',
-  'css',
-  'html',
-  'python',
-  'java',
+var myInfo = {
+  name: 'phong kkp',
+  age: 20,
+  address: 'Hà Nội',
+};
 
-];
-
-var arrayLength = myArray.length;
-for (var i = 0; i < arrayLength; i++) {
-  console.log(myArray[i]);
+for (var key in myInfo) {
+  console.log(key + ': ' + myInfo[key]);
 }
-
-
   
