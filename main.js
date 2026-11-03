@@ -15,3 +15,7 @@ for (var i = 0; i < arrayLength; i++) {
   // console.log([i]);
   console.log(myAray[i]);
 }
+
+
+var a = 1;
+var b = 2;
