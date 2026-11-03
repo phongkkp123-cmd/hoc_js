@@ -1,15 +1,30 @@
-var myArray = [
-  'js',
-  'php',
-  'python',
-  'java',
-  'c++'
+const day = 1 
+let dayname;
 
-];
-
-var i = 0;
-
-while (i < myArray.length) {
-  console.log(myArray[i]);
-  i++;
+switch (day) {
+    case 1:
+        dayname = "Monday";
+        break;
+    case 2:
+        dayname = "Tuesday";  
+      break;
+    case 3:
+        dayname = "Wednesday";
+        break;
+    case 4:
+        dayname = "Thursday";
+        break;
+    case 5:
+        dayname = "Friday";
+        break;
+    case 6:
+        dayname = "Saturday";
+        break;
+    case 7:
+        dayname = "Sunday";
+        break;
+    default:
+        dayname = "Invalid day";
 }
+console.log(dayname);
+
