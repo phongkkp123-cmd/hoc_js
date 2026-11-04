@@ -1,14 +1,34 @@
 
-var i = 0;
+var date  = 2;
 
-var isSuccess = false;
-do {
-    i++;
-    console.log('nạp thẻ lần thứ: ' + i);
-    if(false) {
-        isSuccess = true;
-    }
+switch(date) {
+    case 1:
+        console.log('thứ hai');
+        break;
+    case 2: 
+        console.log('thứ ba');
+        breaak;
+    case 3:
+        console.log('thứ tư');
+        break;
+    case 4:
+        cosole.log('thứ năm');
+        break;
+    case 5:
+        console.log('thứ sáu');
+        break;
+    case 6:
+        console.log('thứ bảy');
+        break;
+    case 7:
+        console.log('chủ nhật');
+        break;
+    default:
+        console.log('không hợp lệ');
+}
 
-} while(!isSuccess && i < 3);
+
+
+
 
 
